@@ -263,5 +263,5 @@ library SystemContractsCaller {
         if (isSystemCall) {
             farCallAbiWithEmptyFatPtr |= (1 << 248);
         }
-    }
+        return farCallAbiWithEmptyFatPtr;
 }
